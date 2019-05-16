@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+target 'NewProjectDemo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NewProjectDemo
+	pod 'SwiftLint'
+	pod 'Moya'
+	pod 'ObjectMapper'
+	pod 'PinLayout'
+	pod 'FlexLayout'
+end
