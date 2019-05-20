@@ -13,6 +13,7 @@
 		35789223228D3D78007EF02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35789222228D3D78007EF02D /* Assets.xcassets */; };
 		35789226228D3D78007EF02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35789224228D3D78007EF02D /* LaunchScreen.storyboard */; };
 		3578922F228D7EDF007EF02D /* ActionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578922E228D7EDF007EF02D /* ActionOperator.swift */; };
+		35AC328F22929312003CF2D6 /* Target_RemoteInvoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35789225228D3D78007EF02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35789227228D3D78007EF02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3578922E228D7EDF007EF02D /* ActionOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionOperator.swift; sourceTree = "<group>"; };
+		35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_RemoteInvoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3578921B228D3D77007EF02D /* AppDelegate.swift */,
 				3578921D228D3D77007EF02D /* ViewController.swift */,
 				3578922E228D7EDF007EF02D /* ActionOperator.swift */,
+				35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */,
 				3578921F228D3D77007EF02D /* Main.storyboard */,
 				35789222228D3D78007EF02D /* Assets.xcassets */,
 				35789224228D3D78007EF02D /* LaunchScreen.storyboard */,
@@ -161,6 +164,7 @@
 			files = (
 				3578921E228D3D77007EF02D /* ViewController.swift in Sources */,
 				3578922F228D7EDF007EF02D /* ActionOperator.swift in Sources */,
+				35AC328F22929312003CF2D6 /* Target_RemoteInvoke.swift in Sources */,
 				3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
