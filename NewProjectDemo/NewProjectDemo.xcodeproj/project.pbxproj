@@ -14,6 +14,7 @@
 		3520948B2320E5E7004D4858 /* UIButtonPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948A2320E5E7004D4858 /* UIButtonPlugin.swift */; };
 		3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */; };
 		352094902320F45C004D4858 /* UIViewControllerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948F2320F45C004D4858 /* UIViewControllerPlugin.swift */; };
+		35209492232112EB004D4858 /* LFScreenAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35209491232112EB004D4858 /* LFScreenAdaptor.swift */; };
 		3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921B228D3D77007EF02D /* AppDelegate.swift */; };
 		3578921E228D3D77007EF02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921D228D3D77007EF02D /* ViewController.swift */; };
 		35789221228D3D77007EF02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578921F228D3D77007EF02D /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		3520948A2320E5E7004D4858 /* UIButtonPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonPlugin.swift; sourceTree = "<group>"; };
 		3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectRuntime.swift; sourceTree = "<group>"; };
 		3520948F2320F45C004D4858 /* UIViewControllerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPlugin.swift; sourceTree = "<group>"; };
+		35209491232112EB004D4858 /* LFScreenAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFScreenAdaptor.swift; sourceTree = "<group>"; };
 		35789218228D3D77007EF02D /* NewProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3578921B228D3D77007EF02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3578921D228D3D77007EF02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		352094832320DE7F004D4858 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				35209491232112EB004D4858 /* LFScreenAdaptor.swift */,
 				352094802320DE5C004D4858 /* UIImagePlugin.swift */,
 				352094842320DE8E004D4858 /* UIFontPlugin.swift */,
 				352094862320DE9C004D4858 /* UIColorPlugin.swift */,
@@ -204,6 +207,7 @@
 				352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */,
 				352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */,
 				3578921E228D3D77007EF02D /* ViewController.swift in Sources */,
+				35209492232112EB004D4858 /* LFScreenAdaptor.swift in Sources */,
 				352094852320DE8E004D4858 /* UIFontPlugin.swift in Sources */,
 				3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */,
 				352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */,
