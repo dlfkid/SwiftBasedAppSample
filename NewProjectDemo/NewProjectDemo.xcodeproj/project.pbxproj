@@ -7,16 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094802320DE5C004D4858 /* UIImagePlugin.swift */; };
+		352094852320DE8E004D4858 /* UIFontPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094842320DE8E004D4858 /* UIFontPlugin.swift */; };
+		352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094862320DE9C004D4858 /* UIColorPlugin.swift */; };
+		352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094882320E3CD004D4858 /* UITextFieldPlugin.swift */; };
+		3520948B2320E5E7004D4858 /* UIButtonPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948A2320E5E7004D4858 /* UIButtonPlugin.swift */; };
+		3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */; };
+		352094902320F45C004D4858 /* UIViewControllerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3520948F2320F45C004D4858 /* UIViewControllerPlugin.swift */; };
 		3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921B228D3D77007EF02D /* AppDelegate.swift */; };
 		3578921E228D3D77007EF02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921D228D3D77007EF02D /* ViewController.swift */; };
 		35789221228D3D77007EF02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578921F228D3D77007EF02D /* Main.storyboard */; };
 		35789223228D3D78007EF02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35789222228D3D78007EF02D /* Assets.xcassets */; };
 		35789226228D3D78007EF02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35789224228D3D78007EF02D /* LaunchScreen.storyboard */; };
-		3578922F228D7EDF007EF02D /* ActionOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578922E228D7EDF007EF02D /* ActionOperator.swift */; };
-		35AC328F22929312003CF2D6 /* Target_RemoteInvoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		352094802320DE5C004D4858 /* UIImagePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePlugin.swift; sourceTree = "<group>"; };
+		352094842320DE8E004D4858 /* UIFontPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontPlugin.swift; sourceTree = "<group>"; };
+		352094862320DE9C004D4858 /* UIColorPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorPlugin.swift; sourceTree = "<group>"; };
+		352094882320E3CD004D4858 /* UITextFieldPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldPlugin.swift; sourceTree = "<group>"; };
+		3520948A2320E5E7004D4858 /* UIButtonPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonPlugin.swift; sourceTree = "<group>"; };
+		3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectRuntime.swift; sourceTree = "<group>"; };
+		3520948F2320F45C004D4858 /* UIViewControllerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerPlugin.swift; sourceTree = "<group>"; };
 		35789218228D3D77007EF02D /* NewProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3578921B228D3D77007EF02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3578921D228D3D77007EF02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +36,6 @@
 		35789222228D3D78007EF02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35789225228D3D78007EF02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35789227228D3D78007EF02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3578922E228D7EDF007EF02D /* ActionOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionOperator.swift; sourceTree = "<group>"; };
-		35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_RemoteInvoke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +49,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		352094822320DE66004D4858 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				352094832320DE7F004D4858 /* UIKit */,
+				3520948E2320EACA004D4858 /* Foundation */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		352094832320DE7F004D4858 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				352094802320DE5C004D4858 /* UIImagePlugin.swift */,
+				352094842320DE8E004D4858 /* UIFontPlugin.swift */,
+				352094862320DE9C004D4858 /* UIColorPlugin.swift */,
+				352094882320E3CD004D4858 /* UITextFieldPlugin.swift */,
+				3520948A2320E5E7004D4858 /* UIButtonPlugin.swift */,
+				3520948F2320F45C004D4858 /* UIViewControllerPlugin.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		3520948E2320EACA004D4858 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		3578920F228D3D77007EF02D = {
 			isa = PBXGroup;
 			children = (
@@ -60,8 +100,7 @@
 			children = (
 				3578921B228D3D77007EF02D /* AppDelegate.swift */,
 				3578921D228D3D77007EF02D /* ViewController.swift */,
-				3578922E228D7EDF007EF02D /* ActionOperator.swift */,
-				35AC328E22929312003CF2D6 /* Target_RemoteInvoke.swift */,
+				352094822320DE66004D4858 /* Plugins */,
 				3578921F228D3D77007EF02D /* Main.storyboard */,
 				35789222228D3D78007EF02D /* Assets.xcassets */,
 				35789224228D3D78007EF02D /* LaunchScreen.storyboard */,
@@ -162,10 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */,
+				352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */,
 				3578921E228D3D77007EF02D /* ViewController.swift in Sources */,
-				3578922F228D7EDF007EF02D /* ActionOperator.swift in Sources */,
-				35AC328F22929312003CF2D6 /* Target_RemoteInvoke.swift in Sources */,
+				352094852320DE8E004D4858 /* UIFontPlugin.swift in Sources */,
+				3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */,
+				352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */,
 				3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */,
+				352094902320F45C004D4858 /* UIViewControllerPlugin.swift in Sources */,
+				3520948B2320E5E7004D4858 /* UIButtonPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
