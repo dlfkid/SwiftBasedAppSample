@@ -8,7 +8,11 @@
 
 import UIKit
 
-extension UIViewController {
+extension UIViewController: Initialize {
+    
+    static func awake() {
+        UIViewController.swizzleInstanceMethod(selector1: #selector(UIViewController.viewWillAppear(_:)), selector2: #selector(UIViewController.custom_viewWillAppear(animate:)))
+    }
     
     @objc func custom_viewWillAppear(animate: Bool) {
         print("Presenting View Controller: \(NSStringFromClass(self.classForCoder))")

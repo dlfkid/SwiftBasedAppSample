@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         LFScreenAdaptor.sharedAdaptor.designScreen = ScreenType.Type4_7
-        UIViewController.swizzleInstanceMethod(selector1: #selector(UIViewController.viewWillAppear(_:)), selector2: #selector(UIViewController.custom_viewWillAppear(animate:)))
         return true
     }
 

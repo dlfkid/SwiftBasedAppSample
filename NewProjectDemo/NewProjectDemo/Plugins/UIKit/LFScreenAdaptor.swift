@@ -298,5 +298,4 @@ class LFScreenAdaptor {
         designScreen = designScreenType
     }
     
-    
 }
