@@ -17,6 +17,8 @@
 		35209492232112EB004D4858 /* LFScreenAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35209491232112EB004D4858 /* LFScreenAdaptor.swift */; };
 		352094942321E62A004D4858 /* Initialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094932321E62A004D4858 /* Initialize.swift */; };
 		352094982321EC5A004D4858 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094972321EC5A004D4858 /* NextViewController.swift */; };
+		3520949A2322317F004D4858 /* StringPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094992322317F004D4858 /* StringPlugin.swift */; };
+		352397362A3E1A010046A201 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352397352A3E1A010046A201 /* VendingMachine.swift */; };
 		3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921B228D3D77007EF02D /* AppDelegate.swift */; };
 		3578921E228D3D77007EF02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921D228D3D77007EF02D /* ViewController.swift */; };
 		35789221228D3D77007EF02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578921F228D3D77007EF02D /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 		35209491232112EB004D4858 /* LFScreenAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFScreenAdaptor.swift; sourceTree = "<group>"; };
 		352094932321E62A004D4858 /* Initialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Initialize.swift; sourceTree = "<group>"; };
 		352094972321EC5A004D4858 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		352094992322317F004D4858 /* StringPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPlugin.swift; sourceTree = "<group>"; };
+		352397352A3E1A010046A201 /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
 		35789218228D3D77007EF02D /* NewProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3578921B228D3D77007EF02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3578921D228D3D77007EF02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				3520948C2320EAC3004D4858 /* NSObjectRuntime.swift */,
+				352094992322317F004D4858 /* StringPlugin.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 			children = (
 				3578921D228D3D77007EF02D /* ViewController.swift */,
 				352094972321EC5A004D4858 /* NextViewController.swift */,
+				352397352A3E1A010046A201 /* VendingMachine.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -236,8 +242,10 @@
 				3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */,
 				352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */,
 				3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */,
+				3520949A2322317F004D4858 /* StringPlugin.swift in Sources */,
 				352094902320F45C004D4858 /* UIViewControllerPlugin.swift in Sources */,
 				3520948B2320E5E7004D4858 /* UIButtonPlugin.swift in Sources */,
+				352397362A3E1A010046A201 /* VendingMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
