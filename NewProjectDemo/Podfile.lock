@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (4.8.2)
-  - FlexLayout (1.3.12)
   - Moya (12.0.1):
     - Moya/Core (= 12.0.1)
   - Moya/Core (12.0.1):
@@ -12,16 +11,14 @@ PODS:
   - SwiftLint (0.31.0)
 
 DEPENDENCIES:
-  - FlexLayout
   - Moya
   - ObjectMapper
   - PinLayout
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
-    - FlexLayout
     - Moya
     - ObjectMapper
     - PinLayout
@@ -30,13 +27,12 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
-  FlexLayout: 7580d328462b39eaa81f5c9ae47f71450870decb
   Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   PinLayout: a0722a5c8f0e0168a9c091ffe4930dabf0c8582c
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: 47b61f833027fa7e6cab0876391d4b56d64239cc
+PODFILE CHECKSUM: 94050788fabf44fbe5ce1af608a3007b69f554fa
 
-COCOAPODS: 1.6.0.rc.2
+COCOAPODS: 1.11.2

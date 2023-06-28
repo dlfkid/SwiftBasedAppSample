@@ -7,36 +7,78 @@
 //
 
 import UIKit
+import PinLayout
 import Foundation
 
 class ViewController: UIViewController {
+    
+    let demoCellIndentifier = "demoCellIdentifier"
+    
+    let tableview: UITableView = {
+        let result = UITableView(frame: .zero, style: .plain)
+        result.separatorStyle = .none
+        return result
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style: .plain, target: self, action: #selector(nextButtonDidTappedAction))
-        let vendingMachine = VendingMachine()
-        vendingMachine.deposit(10)
-        do {
-            let vendedItem = try vendingMachine.vend(.water, quantity: 1)
-            print("I just brought \(vendedItem.first?.name ?? "")")
-        } catch VendingMachineError.insufficientFunds(let lack) {
-            print("Need to deposit \(lack) more bucks")
-        } catch VendingMachineError.invalidSelection(let selection) {
-            print("This vending machine doesn't sell \(selection)")
-        } catch VendingMachineError.outOfStock {
-            print("This vending machine is out of \(VendingSelection.water)")
-        } catch {
-            print("Unexpected error.")
-        }
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        print("View will appear")
+        tableview.delegate = self
+        tableview.dataSource = self
+        tableview.register(UITableViewCell.self, forCellReuseIdentifier: demoCellIndentifier)
+        view.addSubview(tableview)
     }
     
     @objc func nextButtonDidTappedAction() {
         navigationController?.pushViewController(NextViewController(), animated: true)
     }
+}
+
+// 重载VC生命回调方法
+extension ViewController {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("View will appear")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("View did appear")
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        print("View will layout subviews")
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        print("View did layout subviews")
+        tableview.pin.all()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("View will disappear")
+    }
+}
+
+extension ViewController: UITableViewDataSource {
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: demoCellIndentifier, for: indexPath)
+        cell.selectionStyle = .none
+        return cell
+    }
+}
+
+extension ViewController: UITableViewDelegate {
+    
 }

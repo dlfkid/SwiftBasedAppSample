@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3506E0312A4C8C9F0095B5E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3506E0302A4C8C9F0095B5E3 /* LoginViewController.swift */; };
 		352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094802320DE5C004D4858 /* UIImagePlugin.swift */; };
 		352094852320DE8E004D4858 /* UIFontPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094842320DE8E004D4858 /* UIFontPlugin.swift */; };
 		352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094862320DE9C004D4858 /* UIColorPlugin.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3506E0302A4C8C9F0095B5E3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		352094802320DE5C004D4858 /* UIImagePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePlugin.swift; sourceTree = "<group>"; };
 		352094842320DE8E004D4858 /* UIFontPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontPlugin.swift; sourceTree = "<group>"; };
 		352094862320DE9C004D4858 /* UIColorPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorPlugin.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				3578921D228D3D77007EF02D /* ViewController.swift */,
 				352094972321EC5A004D4858 /* NextViewController.swift */,
+				3506E0302A4C8C9F0095B5E3 /* LoginViewController.swift */,
 				352397352A3E1A010046A201 /* VendingMachine.swift */,
 			);
 			path = Controllers;
@@ -115,6 +118,7 @@
 			children = (
 				3578921A228D3D77007EF02D /* NewProjectDemo */,
 				35789219228D3D77007EF02D /* Products */,
+				777976B3AD74DDF9B0E8AFEE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +142,13 @@
 				35789227228D3D78007EF02D /* Info.plist */,
 			);
 			path = NewProjectDemo;
+			sourceTree = "<group>";
+		};
+		777976B3AD74DDF9B0E8AFEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */,
 				352094982321EC5A004D4858 /* NextViewController.swift in Sources */,
 				352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */,
+				3506E0312A4C8C9F0095B5E3 /* LoginViewController.swift in Sources */,
 				3578921E228D3D77007EF02D /* ViewController.swift in Sources */,
 				352094942321E62A004D4858 /* Initialize.swift in Sources */,
 				35209492232112EB004D4858 /* LFScreenAdaptor.swift in Sources */,
@@ -394,7 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSH7W5Y66V;
 				INFOPLIST_FILE = NewProjectDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VSH7W5Y66V;
 				INFOPLIST_FILE = NewProjectDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
