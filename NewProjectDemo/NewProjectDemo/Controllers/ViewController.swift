@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import PinLayout
+import SnapKit
 import Foundation
 
 struct DemoOption {
@@ -42,10 +42,6 @@ class ViewController: UIViewController {
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: demoCellIndentifier)
         view.addSubview(tableview)
     }
-    
-    @objc func nextButtonDidTappedAction() {
-        navigationController?.pushViewController(NextViewController(), animated: true)
-    }
 }
 
 // 重载VC生命回调方法
@@ -68,7 +64,9 @@ extension ViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         print("View did layout subviews")
-        tableview.pin.all()
+        tableview.snp.makeConstraints { make in
+            make.edges.equalTo(0)
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
