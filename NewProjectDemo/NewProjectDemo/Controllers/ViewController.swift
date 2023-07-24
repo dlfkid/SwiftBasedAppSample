@@ -48,7 +48,20 @@ class ViewController: UIViewController {
 extension ViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("View will appear")
+        let sum1 = AggregateUnit(SumDataPoint(value: 6))
+        let sum2 = AggregateUnit(SumDataPoint(value: 3))
+        let sum3 = AggregateUnit(SumDataPoint(value: 9))
+        let sum4 = AggregateUnit(SumDataPoint(value: 4))
+        let avg1 = AggregateUnit(AverageDataPoint(value: 8))
+        let avg2 = AggregateUnit(AverageDataPoint(value: 1))
+        let avg3 = AggregateUnit(AverageDataPoint(value: 2))
+        let avg4 = AggregateUnit(AverageDataPoint(value: 4))
+        let avg5 = AggregateUnit(AverageDataPoint(value: 5))
+        let array = [sum1, sum2, sum3, sum4, avg1, avg2, avg3, avg4, avg5]
+        let output = array.reduce(0) { (result, unit) -> Int in
+            return unit.aggregate(result)
+        }
+        print("View will appear \(output)")
     }
     
     override func viewDidAppear(_ animated: Bool) {

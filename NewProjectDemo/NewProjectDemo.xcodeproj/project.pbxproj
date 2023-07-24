@@ -20,6 +20,7 @@
 		352094982321EC5A004D4858 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094972321EC5A004D4858 /* NextViewController.swift */; };
 		3520949A2322317F004D4858 /* StringPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352094992322317F004D4858 /* StringPlugin.swift */; };
 		352397362A3E1A010046A201 /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352397352A3E1A010046A201 /* VendingMachine.swift */; };
+		352E296A2A6EB67E0021FD90 /* TypeEraseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E29692A6EB67E0021FD90 /* TypeEraseExample.swift */; };
 		3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921B228D3D77007EF02D /* AppDelegate.swift */; };
 		3578921E228D3D77007EF02D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578921D228D3D77007EF02D /* ViewController.swift */; };
 		35789221228D3D77007EF02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578921F228D3D77007EF02D /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		352094972321EC5A004D4858 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		352094992322317F004D4858 /* StringPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPlugin.swift; sourceTree = "<group>"; };
 		352397352A3E1A010046A201 /* VendingMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
+		352E29692A6EB67E0021FD90 /* TypeEraseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeEraseExample.swift; sourceTree = "<group>"; };
 		35789218228D3D77007EF02D /* NewProjectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProjectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3578921B228D3D77007EF02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3578921D228D3D77007EF02D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				3506E0302A4C8C9F0095B5E3 /* LoginViewController.swift */,
 				352397352A3E1A010046A201 /* VendingMachine.swift */,
 				35908B7B2A5013510076184E /* Account.swift */,
+				352E29692A6EB67E0021FD90 /* TypeEraseExample.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */,
+				352E296A2A6EB67E0021FD90 /* TypeEraseExample.swift in Sources */,
 				352094982321EC5A004D4858 /* NextViewController.swift in Sources */,
 				352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */,
 				3506E0312A4C8C9F0095B5E3 /* LoginViewController.swift in Sources */,
