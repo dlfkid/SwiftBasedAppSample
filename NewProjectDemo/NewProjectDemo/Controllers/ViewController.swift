@@ -32,11 +32,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view
         tableview.separatorStyle = .none
         navigationItem.title = "demo_pages"
-        dataSource = [DemoOption(title: "LoginViewController", selectHandler: { [unowned self] option in
-            print("Calling \(option.title) closure")
+        dataSource = [
+            DemoOption(title: "LoginViewController", selectHandler: { [unowned self] option in
+                print("Calling \(option.title) closure")
             let controller = LoginViewController()
             self.navigationController?.pushViewController(controller, animated: true)
-        })]
+        }),
+            DemoOption(title: "VendingMachine", selectHandler: { [unowned self] option in
+                print("Calling \(option.title) closure")
+                let controller = VendingMachineViewController()
+                self.navigationController?.pushViewController(controller, animated: true)
+            })
+        ]
         tableview.delegate = self
         tableview.dataSource = self
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: demoCellIndentifier)

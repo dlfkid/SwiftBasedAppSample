@@ -26,6 +26,8 @@
 		35789221228D3D77007EF02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578921F228D3D77007EF02D /* Main.storyboard */; };
 		35789223228D3D78007EF02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35789222228D3D78007EF02D /* Assets.xcassets */; };
 		35789226228D3D78007EF02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35789224228D3D78007EF02D /* LaunchScreen.storyboard */; };
+		357A02392AB5A68A0099198D /* VendingMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A02382AB5A68A0099198D /* VendingMachineViewController.swift */; };
+		357A023B2AB5AA370099198D /* BloodTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357A023A2AB5AA370099198D /* BloodTypes.swift */; };
 		35908B7C2A5013510076184E /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35908B7B2A5013510076184E /* Account.swift */; };
 		AF805456BC25B87141BBA766 /* Pods_NewProjectDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603A13832D3F9AE9D879899B /* Pods_NewProjectDemo.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		35789222228D3D78007EF02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35789225228D3D78007EF02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35789227228D3D78007EF02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357A02382AB5A68A0099198D /* VendingMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineViewController.swift; sourceTree = "<group>"; };
+		357A023A2AB5AA370099198D /* BloodTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTypes.swift; sourceTree = "<group>"; };
 		35908B7B2A5013510076184E /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		523200691A305DBE3B911C91 /* Pods-NewProjectDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProjectDemo.release.xcconfig"; path = "Target Support Files/Pods-NewProjectDemo/Pods-NewProjectDemo.release.xcconfig"; sourceTree = "<group>"; };
 		52636E4FC1CD1A1B470150A7 /* Pods-NewProjectDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProjectDemo.debug.xcconfig"; path = "Target Support Files/Pods-NewProjectDemo/Pods-NewProjectDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +121,9 @@
 				3578921D228D3D77007EF02D /* ViewController.swift */,
 				352094972321EC5A004D4858 /* NextViewController.swift */,
 				3506E0302A4C8C9F0095B5E3 /* LoginViewController.swift */,
+				357A02382AB5A68A0099198D /* VendingMachineViewController.swift */,
 				352397352A3E1A010046A201 /* VendingMachine.swift */,
+				357A023A2AB5AA370099198D /* BloodTypes.swift */,
 				35908B7B2A5013510076184E /* Account.swift */,
 				352E29692A6EB67E0021FD90 /* TypeEraseExample.swift */,
 			);
@@ -307,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				352094892320E3CD004D4858 /* UITextFieldPlugin.swift in Sources */,
+				357A023B2AB5AA370099198D /* BloodTypes.swift in Sources */,
 				352E296A2A6EB67E0021FD90 /* TypeEraseExample.swift in Sources */,
 				352094982321EC5A004D4858 /* NextViewController.swift in Sources */,
 				352094872320DE9C004D4858 /* UIColorPlugin.swift in Sources */,
@@ -316,6 +323,7 @@
 				352094942321E62A004D4858 /* Initialize.swift in Sources */,
 				35209492232112EB004D4858 /* LFScreenAdaptor.swift in Sources */,
 				352094852320DE8E004D4858 /* UIFontPlugin.swift in Sources */,
+				357A02392AB5A68A0099198D /* VendingMachineViewController.swift in Sources */,
 				3520948D2320EAC3004D4858 /* NSObjectRuntime.swift in Sources */,
 				352094812320DE5C004D4858 /* UIImagePlugin.swift in Sources */,
 				3578921C228D3D77007EF02D /* AppDelegate.swift in Sources */,
