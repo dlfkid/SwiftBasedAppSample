@@ -17,16 +17,13 @@ class VendingMachineViewController: UIViewController {
         title = "Vending Machine Example"
         view.backgroundColor = .white
         
+        let vendingMachine = VendingMachine()
+        let order1 = vendingMachine.generateNewOrder(name: "CocaCola", price: 3)
         let start = Transition<Waiting, CoinInserted>()
         let selectionMade = Transition<CoinInserted, FetchIng>()
         let delievery = Transition<FetchIng, Serving>()
         let rollBack = Transition<Serving, Waiting>()
-        
-        let m1 = VendingMachine<Waiting>()
-        let m2 = m1.transit(with: start)
-        let m3 = m2.transit(with: selectionMade)
-        let m4 = m3.transit(with: delievery)
-        let m5 = m4.transit(with: rollBack)
+        order1.transit(start)
         
         // let m6 = m5.transit(with: delievery)
         
